@@ -1,0 +1,7 @@
+#hideMe {
+  cursor: pointer;
+  color: #0088cc;
+}
+#hideMe:hover {
+  text-decoration: underline;
+}
