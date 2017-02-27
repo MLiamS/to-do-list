@@ -25,12 +25,15 @@ $(function() {
     event.preventDefault();
     for (i = 0; i < listArray.length; i++)
     {
-      $("ul#show-list").append("<li><span id='hideMe'>" + listArray[i] + " " + "</span></li>");
+      $("ul#show-list").append("<li class='hideMe'>" + listArray[i] + " " + "</li>");
     }
 
-    $("#hideMe").click(function() {
-        $("#hideMe").hide();
+    $(".hideMe").click(function() {
+        $(".hideMe").hide();
+
       });
 
+
   });
+
 });
